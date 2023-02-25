@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SampleSite - about</title>
+
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/about.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <!-- Banner Section -->
+    <section class="banner">
+        <div class="nav-bar" id="navbar">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand " href="index.html">SampleSite</a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="about.html">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="services.html">Our Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact Us</a>
+                            </li>
+                        </ul>
+                        <div class="nav-button">
+                            <button type="button" class="btn one">LOGIN</button>
+                            <button type="button" class="btn two">SIGN UP</button>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="main-content">
+            <h1>About Us</h1><br>
+            <h3>Home / About Us</h3>
+        </div>
+    </section>
+
+    <!-- history section -->
+    <section class="about-history">
+        <div class="history-box">
+            <div class="image-sec">
+                <img src="images/our-team.jpg" alt="">
+            </div>
+            <div class="history-feature-box">
+                <div class="feature-background">
+                    <p>About Us</p>
+                    <h2>Background of our Company</h2>
+                    <p class="para">
+                        Duis sit amet nibh non sapien tincidunt bibendum. Curabitur rutrum justo id leo ornare, suscipit
+                        lobortis augue volutpat. Sed ligula arcu, interdum eu magna eget, tristique aliquet nibh.
+                    </p>
+                </div>
+                <div class="breaker"></div>
+                <div class="tab-menu">
+                    <div class="btn-grp">
+                        <button id="btn1" onclick="fun1()">Our History</button>
+                        <button id="btn2" onclick="fun2()">Our Cloud</button>
+                        <button id="btn3" onclick="fun3()">Our Network</button>
+                    </div>
+                    <div class="menu-content">
+                        <p id="para1">Ut elementum a elit sed tristique. Pellentesque sed semper erat. Orci varius
+                            natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean quam erat,
+                            rutrum ut malesuada a, commodo vitae lectus. Integer volutpat sapien in arcu fringilla, ac
+                            eleifend est facilisis. <br><br>
+                            Phasellus finibus lacus eu scelerisque rutrum. Duis purus eros, blandit ultricies iaculis
+                            in, commodo quis lacus. Pellentesque interdum varius enim nec accumsan.</p>
+
+                        <p id="para2">Aenean molestie, odio quis viverra ultricies, leo tellus lacinia neque, sit amet
+                            maximus tortor nunc aliquet felis. Duis sit amet nibh non sapien tincidunt bibendum.
+                            Curabitur rutrum justo id leo ornare, suscipit lobortis augue volutpat. <br><br>Sed ligula
+                            arcu, interdum eu magna eget, tristique aliquet nibh. Aenean sodales justo vitae ex
+                            pharetra, vitae tincidunt dolor condimentum. Cras vel mattis risus.</p>
+
+                        <p id="para3">Fusce in semper velit, at tempus augue. Morbi quis auctor ipsum, ut accumsan
+                            neque. Vivamus dapibus ipsum placerat ante commodo, eget suscipit tortor hendrerit. Quisque
+                            lacinia sed velit et maximus. <br><br> Quisque dictum, lacus a malesuada finibus, arcu magna
+                            luctus risus, eu accumsan risus elit vitae lacus. Vestibulum et lorem non erat efficitur
+                            iaculis ut nec nibh. Vestibulum mauris ipsum, tempor tincidunt justo sit amet, bibendum
+                            tincidunt dui.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- meet people section -->
+    <section class="meet-people">
+        <div class="meet-container">
+            <p>Our Team</p>
+            <h1>Meet the Greatest People</h1>
+            <p id="colored">Integer blandit, tellus varius vulputate cursus, purus orci tincidunt tortor, eget tincidunt elit justo non leo. <br> Donec mollis nulla id est suscipit, ut laoreet nibh faucibus.</p>
+
+            <div class="meet-box-container">
+                <div class="meet-profile">
+                    <img src="images/team-01.jpg" alt="">
+                    <h3>Jonathan Smart</h3>
+                    <p>Co-Founder</p>
+                </div>
+                <div class="meet-profile">
+                    <img src="images/team-02.jpg" alt="">
+                    <h3>Marry Moris</h3>
+                    <p>Co-Founder</p>
+                </div>
+                <div class="meet-profile">
+                    <img src="images/team-03.jpg" alt="">
+                    <h3>Jeorge White</h3>
+                    <p>Co-Founder</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- footer section -->
+    <section class="footer">
+        <div class="footer-container">
+
+            <!-- container boxes -->
+            <div class="cotainer-boxes box1">
+                <h5>About Us</h5>
+                <p>Host Cloud is provided by TemplateMo for free of charge. Anyone can download and use this CSS
+                    Bootstrap template for commercial purposes.</p>
+            </div>
+            <div class="cotainer-boxes box2">
+                <h5>Hosting Plans</h5>
+                <li><a href="">Basic Cloud 5X</a></li>
+                <li><a href="">Cloud VPS 10X</a></li>
+                <li><a href="">Advanced Cloud</a></li>
+                <li><a href="">Custom Designs</a></li>
+                <li><a href="">Special Solutions</a></li>
+            </div>
+            <div class="cotainer-boxes box3">
+                <h5>Useful links</h5>
+                <li><a href="">Cloud Hosting Platform</a></li>
+                <li><a href="">Light Speed Zone</a></li>
+                <li><a href="">Content Delivery Network</a></li>
+                <li><a href="">Customer Support</a></li>
+                <li><a href="">Latest News</a></li>
+            </div>
+            <div class="cotainer-boxes box4">
+                <h5>More Information</h5>
+                <li><span>Phone: </span>+91 6381 610 711</li>
+                <li><span>Email: </span>mailtoChristo@gmail.com</li>
+                <li><span>Support: </span>support@gmail.com</li>
+                <li><span>Website: </span>www.websiteChristo.org</li>
+            </div>
+
+            <div class="footer-breaker"></div>
+        </div>
+        <div class="footer-design-copyright">
+            <p>Copyright © 2022 - Designed by ChristoNimal</p>
+        </div>
+    </section>
+
+    <!-- about.html ends -->
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+</script>
+
+<script src="js/main.js"></script>
+
+</html>

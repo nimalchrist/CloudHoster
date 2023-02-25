@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* banner section */
+.banner{
+    background-image: url(../images/heading-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 520px;
+}
+/* banner >> navbar */
+.navbar{
+    background-color: transparent!important;
+    border-bottom: 1px solid #ACABE0;
+    padding: 17px 30px;
+    position: sticky;
+}
+.navbar-brand{
+    font-weight: bold;
+    color: white!important;
+    font-size: 25px;
+    margin-left: 45px;
+}
+.navbar-nav{
+    margin-left: 260px;
+}
+.navbar-nav  .nav-item .nav-link{
+    font-size: 14px;
+    color: #ACABE0;
+    margin: 0 13px;
+    transition: 0.3s ease-in-out;
+    font-weight: bold;
+}
+.active{
+    color: #0AA4CE!important;
+}
+.nav-link:hover{
+    color: #0AA4CE!important;
+}
+
+.nav-button{
+    margin-right: 55px;
+}
+.nav-button .btn{
+    background-color: transparent;
+    font-size: 13px;
+    border-radius: 0;
+    padding: 5px 20px;
+    transition: 0.5s ease-in-out;
+    margin-left: 10px;
+    color: white;
+}
+.nav-button .one{
+    border: 2px solid white;
+}
+.nav-button .two{
+    border: 2px solid #00BCD4;
+    background-color: #00BCD4;
+}
+.nav-button .one:hover{
+    background-color: white;
+    color: rgb(18, 179, 179);
+}
+.nav-button .two:hover{
+    background-color: #0AA4CE;
+    border: 2px solid #0a9ec7;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+.main-content h1{
+    font-size: 48px;
+    color: white;
+    font-weight: bold;
+}
+.main-content h3{
+    color: white;
+    font-size: 16px;
+}
+
+/* hosting services */
+
+
+.hosting-services{
+    width: 80%;
+    margin: 145px auto;
+}
+.container2{
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.hosting-content{
+    flex-basis: 100%;
+}
+.hosting-content h5{
+    color: #00BCD4;
+    font-size: 16px;
+}
+.hosting-content h4{
+    font-weight: bold;
+}
+.hosting-content p{
+    font-size: 14px;
+}
+.boxes{
+    flex-basis: 32%;
+    text-align: center;
+    margin-top: 50px;
+    background-color: #f5f3f3ed;
+    padding: 10px;
+}
+.boxes .icon .fas{
+    font-size: 30px;
+    color: white;
+    background-color: #00BCD4;
+    padding: 25px 30px;
+    border-radius: 50px;
+    margin: 30px;
+}
+.boxes .box-title h5{
+    font-size: 18px;
+    margin: 20px auto;
+}
+.boxes .box-content p{
+    font-size: 14px;
+    color: #595d64;
+    padding: 20px;
+    margin: 5px;
+}
+.boxes .box-content p a{
+    text-decoration: none;
+}
+
+
+/* responsive styling */
+@media  screen and (max-width: 676px) {
+    .boxes{
+        flex-basis: 100%;
+    }
+}

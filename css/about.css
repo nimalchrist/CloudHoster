@@ -1,0 +1,345 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* banner section */
+.banner{
+    background-image: url(../images/heading-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 520px;
+}
+
+/* banner >> navbar */
+.navbar{
+    background-color: transparent!important;
+    border-bottom: 1px solid #ACABE0;
+    padding: 17px 30px;
+    position: sticky;
+}
+.navbar-brand{
+    font-weight: bold;
+    color: white!important;
+    font-size: 25px;
+    margin-left: 45px;
+}
+.navbar-nav{
+    margin-left: 260px;
+}
+.navbar-nav  .nav-item .nav-link{
+    font-size: 14px;
+    color: #ACABE0;
+    margin: 0 13px;
+    transition: 0.3s ease-in-out;
+    font-weight: bold;
+}
+.active{
+    color: #0AA4CE!important;
+}
+.nav-link:hover{
+    color: #0AA4CE!important;
+}
+
+.nav-button{
+    margin-right: 55px;
+}
+.nav-button .btn{
+    background-color: transparent;
+    font-size: 13px;
+    border-radius: 0;
+    padding: 5px 20px;
+    transition: 0.5s ease-in-out;
+    margin-left: 10px;
+    color: white;
+}
+.nav-button .one{
+    border: 2px solid white;
+}
+.nav-button .two{
+    border: 2px solid #00BCD4;
+    background-color: #00BCD4;
+}
+.nav-button .one:hover{
+    background-color: white;
+    color: rgb(18, 179, 179);
+}
+.nav-button .two:hover{
+    background-color: #0AA4CE;
+    border: 2px solid #0a9ec7;
+}
+
+
+/* banner main content */
+.main-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+.main-content h1{
+    font-size: 45px;
+    color: white;
+    font-weight: bold;
+}
+.main-content h3{
+    color: white;
+    font-size: 16px;
+}
+
+
+/* history section */
+.about-history{
+    width: 100%;
+    margin: 0 auto;
+    background-color: #F7F7F7;
+    height: auto;
+}
+.about-history .history-box{
+    width: 83%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-between;
+    padding: 140px 0 270px 0;
+}
+.about-history .history-box .image-sec{
+    flex-basis: 45%;
+}
+.about-history .history-box .image-sec img{
+    width: 500px;
+}
+.history-feature-box{
+    flex-basis: 48%;
+}
+.history-box .history-feature-box .feature-background p{
+    color: #0a9ec7;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.history-box h2{
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.history-box .history-feature-box .feature-background .para{
+    color: #6A6A6E;
+    font-weight: normal;
+    line-height: 25px;
+}
+
+.history-box .history-feature-box .breaker{
+    width: 100%;
+    height: 1px;
+    background-color: #c5c1c1;
+    margin: 38px auto 0px auto;
+}
+
+
+/* tab menu */
+.tab-menu{
+    flex-basis: 48%;
+}
+.tab-menu .btn-grp button{
+    outline: none;
+    border: none;
+    margin: 35px 20px 35px 0px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: .5s;
+    background-color: transparent;
+}
+
+.tab-menu .menu-content{
+    position: relative;
+}
+.tab-menu .menu-content p{
+    font-size: 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+
+/* Meet people section */
+
+.meet-people{
+    width: 100%;
+    margin: 160px auto ;
+}
+.meet-people .meet-container{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.meet-people .meet-container p{
+    color: #00BCD4;
+    font-weight: bold;
+}
+.meet-people .meet-container h1{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.meet-people .meet-container #colored{
+    color: black;
+    font-weight: normal;
+    margin-bottom: 80px;
+}
+
+.meet-people .meet-container .meet-box-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.meet-people .meet-container .meet-box-container .meet-profile{
+    flex-basis: 31%;
+    background-color: #F7F7F7;
+}
+.meet-people .meet-container .meet-box-container .meet-profile img{
+    width: 100%;
+    transition: .5s;
+}
+.meet-people .meet-container .meet-box-container .meet-profile img:hover{
+    opacity: 0.7;
+}
+.meet-people .meet-container .meet-box-container .meet-profile h3{
+    margin: 35px auto 20px auto;
+    font-size: 20px;
+    font-weight: bold;
+}
+.meet-people .meet-container .meet-box-container .meet-profile p{
+    font-size: 14px;
+}
+
+
+
+
+/* footer section */
+.footer{
+    width: 100%;
+    background-image: url(../images/footer-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: auto;
+}
+.footer .footer-container{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto 0 auto;
+    justify-content: center;
+}
+.footer-container .cotainer-boxes{
+
+    flex-basis: 22%;
+    margin: 55px 15px;
+}
+.footer-container .cotainer-boxes h5{
+    color: white;
+    margin-bottom: 25px;
+}
+.footer-container .box1 p{
+    color: white;
+    font-size: 14px;
+}
+.footer-container .box2 li{
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+.footer-container .box2 li a{
+    color: rgb(226, 221, 221);
+    font-size: 15px;
+    text-decoration: none;
+    transition: .2s;
+}
+.footer-container .box2 li a:hover{
+    color: #c2c6cc;
+}
+.footer-container .box3 li{
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+.footer-container .box3 li a{
+    color: rgb(226, 221, 221);
+    font-size: 15px;
+    text-decoration: none;
+    transition: .2s;
+}
+.footer-container .box3 li a:hover{
+    color: #c2c6cc;
+}
+.footer-container .box4 li{
+    list-style-type: none;
+    margin-bottom: 10px;
+    color: rgb(226, 221, 221);
+}
+.footer-container .box4 li span{
+    font-weight: bold;
+}
+
+.footer-container .footer-breaker{
+    width: 90%;
+    height: 1px;
+    background-color: rgb(156, 152, 152);
+}
+.footer .footer-design-copyright{
+    padding: 45px;
+    text-align: center;
+    color: white;
+}
+
+
+
+
+/* responsive styling */
+@media  screen and (max-width: 676px) {
+    .navbar-brand{
+        font-size: 18px;
+        margin-left: 20px;
+    }
+    .navbar-toggler{
+        font-size: 15px;
+        background-color: #00BCD4;
+        color: white;
+    }
+    .navbar-nav{
+        margin-top: 15px;
+        margin-left: 10px;
+        background-color: transparent;
+        border: 1px solid white;
+    }
+    .navbar-nav  .nav-item{
+        border-bottom: 1px solid white;
+    }
+    .navbar-nav  .nav-item .nav-link{
+        color: white;
+        text-align: center;
+    }
+    .nav-button{
+        margin: 20px auto 10px auto;
+    }
+    .meet-people .meet-container .meet-box-container .meet-profile{
+        flex-basis: 100%;
+        margin-bottom: 25px;
+    }
+    .history-box{
+        flex-basis: 100%;
+    }
+    .tab-menu{
+        flex-basis: 100%;
+    }
+    .history-feature-box{
+        flex-basis: 100%;
+    }
+    .about-history .history-box .image-sec img{
+        width: 480px;
+        margin-left: -25px;
+        margin-bottom: 55px;
+    }
+    .footer-container .cotainer-boxes{
+        flex-basis: 100%;
+    }
+}
